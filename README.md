@@ -49,7 +49,7 @@
 ### 方式 B：自己敲一行
 
 ```bash
-npx skills add face2333/moleportal-skills --skill moleportal-weekly-mcp -y -g
+npx skills add face2333/moleportal-weekly-mcp --skill moleportal-weekly-mcp -y -g
 ```
 
 > skills CLI 固定把技能装在 `~/.agents/skills/`。而 WorkBuddy 读的是 `~/.workbuddy/skills/`，

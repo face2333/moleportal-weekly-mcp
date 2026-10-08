@@ -1,6 +1,6 @@
 # 安装提示词（复制粘贴给 AI 即可）
 
-> 文中的仓库地址已替换为 `face2333/moleportal-skills`，可直接使用。
+> 文中的仓库地址已替换为 `face2333/moleportal-weekly-mcp`，可直接使用。
 
 ---
 
@@ -10,7 +10,7 @@
 帮我安装「运营周报数据」这个 skill，按下面的步骤做：
 
 1. 运行：
-   npx skills add face2333/moleportal-skills --skill moleportal-weekly-mcp -y -g
+   npx skills add face2333/moleportal-weekly-mcp --skill moleportal-weekly-mcp -y -g
 
 2. skills CLI 固定装在 ~/.agents/skills/，确认一下：
    ls -d ~/.agents/skills/moleportal-weekly-mcp
@@ -36,7 +36,7 @@
 ## 精简版（对方会用终端时）
 
 ```
-帮我安装 npx skills add face2333/moleportal-skills --skill moleportal-weekly-mcp -y -g，
+帮我安装 npx skills add face2333/moleportal-weekly-mcp --skill moleportal-weekly-mcp -y -g，
 然后把生成的 moleportal-weekly-mcp 目录复制到 ~/.workbuddy/skills/ 下。
 ```
 
@@ -48,9 +48,9 @@
 
 ```
 帮我安装「运营周报数据」这个 skill：
-1. 下载 https://github.com/face2333/moleportal-skills/archive/refs/heads/main.zip
+1. 下载 https://github.com/face2333/moleportal-weekly-mcp/archive/refs/heads/main.zip
    到临时目录并解压
-2. 把解压出来的 moleportal-skills-main/skills/moleportal-weekly-mcp 整个目录
+2. 把解压出来的 moleportal-weekly-mcp-main/skills/moleportal-weekly-mcp 整个目录
    复制到 ~/.workbuddy/skills/ 下
 3. 删掉临时文件
 4. 告诉我最终路径，并提醒我需要在 ~/.workbuddy/mcp.json 里配置 moleportal 的
@@ -81,7 +81,7 @@ npx skills add /path/to/moleportal-weekly-mcp-publish/skills/moleportal-weekly-m
 
 推送到公开仓库前，逐项确认：
 
-- [x] 仓库地址已替换为 `face2333/moleportal-skills`
+- [x] 仓库地址已替换为 `face2333/moleportal-weekly-mcp`
 - [ ] 全仓搜不到真实 IP、Token、callerId、security
       ```bash
       grep -rniE "36\.133|bearer [a-f0-9]{16,}|caller[_ -]?id|security=" . || echo "干净"
@@ -90,5 +90,5 @@ npx skills add /path/to/moleportal-weekly-mcp-publish/skills/moleportal-weekly-m
 - [ ] 没有 `.DS_Store`
 - [ ] 自己先跑一遍验证能被发现：
       ```bash
-      npx skills add face2333/moleportal-skills --list
+      npx skills add face2333/moleportal-weekly-mcp --list
       ```
