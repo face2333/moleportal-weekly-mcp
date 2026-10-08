@@ -21,7 +21,7 @@ import json
 import sys
 from pathlib import Path
 
-DEFAULT_TEMPLATE = Path(__file__).resolve().parent.parent / "templates" / "运营周报看板_template.html"
+DEFAULT_TEMPLATE = Path(__file__).resolve().parent.parent / "templates" / "weekly_report_template.html"
 
 # 复盘分析区块的空结构：模型未产出时用它兜底，页面显示"暂无"
 EMPTY_ANALYSIS = {
