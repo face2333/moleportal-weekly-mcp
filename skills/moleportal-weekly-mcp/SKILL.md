@@ -223,7 +223,7 @@ python3 "<SKILL_DIR>/scripts/render_report.py" \
 > done
 > ```
 
-脚本仅用标准库，模板默认取 skill 包内的 `templates/运营周报看板_template.html`。
+脚本仅用标准库，模板默认取 skill 包内的 `templates/weekly_report_template.html`。
 
 ### 第 4 步 · 渲染后自检（别跳过）
 

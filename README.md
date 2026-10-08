@@ -68,7 +68,7 @@ skills/moleportal-weekly-mcp/
 ├── SKILL.md                          # 技能主文件（AI 读的操作规范）
 ├── USAGE.md                          # 给人看的使用说明
 ├── scripts/render_report.py          # HTML 看板渲染脚本（仅用标准库）
-└── templates/运营周报看板_template.html
+└── templates/weekly_report_template.html
 ```
 
 ---
